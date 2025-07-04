@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Certificates</title>
+    <style>
+        body {
+            background: #ffff;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #222;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 24px;
+            background: #70c7e6;
+            border-radius: 12px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+        }
+        h1 {
+            text-align: center;
+            color: #2d4a7c;
+            margin-bottom: 32px;
+            letter-spacing: 1px;
+        }
+        .certificates {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 24px;
+        }
+        .certificate-card {
+            background: hsl(218, 19%, 92%);
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(44,62,80,0.06);
+            padding: 20px 18px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            transition: box-shadow 0.2s;
+        }
+        .certificate-card:hover {
+            box-shadow: 0 6px 18px rgba(44,62,80,0.12);
+        }
+        .certificate-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #23406e;
+            margin-bottom: 8px;
+        }
+        .certificate-org {
+            font-size: 0.98rem;
+            color: #4b6584;
+            margin-bottom: 6px;
+        }
+        .certificate-date {
+            font-size: 0.92rem;
+            color: #8395a7;
+            margin-bottom: 10px;
+        }
+        .certificate-link {
+            margin-top: auto;
+            text-decoration: none;
+            color: #3867d6;
+            font-weight: 500;
+            font-size: 0.97rem;
+            transition: color 0.2s;
+        }
+        .certificate-link:hover {
+            color: #2d4a7c;
+            text-decoration: underline;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Certificates</h1>
+          <div class="certificate-card">
+                <div class="certificate-title">IOT Workshop</div>
+                <div class="certificate-org">ISTE</div>
+                <div class="certificate-date">February 2024</div>
+                <a class="certificate-link" href="Iotcertificate.pdf" target="_blank">View Certificate</a>
+            </div>
+        <div class="certificates">
+            <div class="certificate-card">
+                <div class="certificate-title">Filpkart Runway:Season 5</div>
+                <div class="certificate-org">Unstop</div>
+                <div class="certificate-date">March  2024</div>
+                <a class="certificate-link" href="filpkart.jpg" target="_blank">View Certificate</a>
+            </div>
+            <div class="certificate-card">
+                <div class="certificate-title">Common Internship Test</div>
+                <div class="certificate-org">Internship Studio</div>
+                <div class="certificate-date">April 2024</div>
+                <a class="certificate-link" href="internship.pdf" target="_blank">View Certificate</a>
+            </div>
+            <div class="certificate-card">
+                <div class="certificate-title">Python 101 for Data Science </div>
+                <div class="certificate-org">IBM Developer Skills Network</div>
+                <div class="certificate-date">June 2025</div>
+                <a class="certificate-link" href="IBMcertificate.pdf" target="_blank">View Certificate</a>
+        </div>
+    </div>
+</body>
+</html>
