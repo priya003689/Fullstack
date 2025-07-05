@@ -1,0 +1,63 @@
+
+# Portfolio
+
+This repository contains my personal portfolio, showcasing my projects, skills, certifications, and contact information.
+
+## Directory Structure
+
+```
+C:\
+└── Users\
+    └── PRIYANKA\
+        └── OneDrive\
+            └── Desktop\
+                └── portfolio\
+                    ├── README
+                    ├── index.html
+                    ├── resume.pdf
+                    ├── filpkart.jpg
+                    ├── IBMcertificate.pdf
+                    ├── internship.pdf
+                    ├── iotcertificate.pdf
+                    ├── project.html
+                    ├── contact.html
+                    ├── certificate.html
+                    └── skills.html
+```
+
+## File Descriptions
+
+- **index.html**: Main landing page of the portfolio.
+- **resume.pdf**: My professional resume.
+- **filpkart.jpg**: Project image or asset.
+- **IBMcertificate.pdf**: IBM certification.
+- **internship.pdf**: Internship certificate.
+- **iotcertificate.pdf**: IoT certification.
+- **project.html**: Details about my projects.
+- **contact.html**: Contact information.
+- **certificate.html**: List of certifications.
+- **skills.html**: Overview of my skills.
+
+## How to Use
+
+1. **Clone or Download** this repository to your local machine.
+2. Open `index.html` in your web browser to view the portfolio.
+3. Browse through the HTML pages to explore projects, skills, and certifications.
+
+## Technologies Used
+
+- **HTML5** for structure and content
+- **CSS3**  for styling
+- **PDF** for resumes and certificates
+- **Images** for project visuals
+
+## Contribution
+
+Contributions are welcome! If you have suggestions for improvements or new features, feel free to fork the repository and submit a pull request. Please ensure your changes are well-documented.
+
+## Contact
+
+For any queries or collaboration opportunities, please refer to the `contact.html` page or reach out via the contact details provided there.
+
+---
+##github Repo:https://github.com/priya003689/Fullstack
